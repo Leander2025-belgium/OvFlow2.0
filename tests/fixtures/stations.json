@@ -1,0 +1,86 @@
+{
+  "version": "1.4",
+  "timestamp": "1793015115",
+  "station": [
+    {
+      "@id": "http://irail.be/stations/NMBS/008883006",
+      "id": "BE.NMBS.008883006",
+      "name": "'s Gravenbrakel",
+      "locationX": "4.137662",
+      "locationY": "50.605079",
+      "standardname": "Braine-le-Comte"
+    },
+    {
+      "@id": "http://irail.be/stations/NMBS/008400319",
+      "id": "BE.NMBS.008400319",
+      "name": "'s Hertogenbosch",
+      "locationX": "5.294278",
+      "locationY": "51.69042",
+      "standardname": "'s Hertogenbosch"
+    },
+    {
+      "@id": "http://irail.be/stations/NMBS/008895000",
+      "id": "BE.NMBS.008895000",
+      "name": "Aalst",
+      "locationX": "4.039653",
+      "locationY": "50.942813",
+      "standardname": "Aalst"
+    },
+    {
+      "@id": "http://irail.be/stations/NMBS/008895125",
+      "id": "BE.NMBS.008895125",
+      "name": "Aalst-Kerrebroek",
+      "locationX": "4.024407",
+      "locationY": "50.948377",
+      "standardname": "Aalst-Kerrebroek"
+    },
+    {
+      "@id": "http://irail.be/stations/NMBS/008891140",
+      "id": "BE.NMBS.008891140",
+      "name": "Aalter",
+      "locationX": "3.447848",
+      "locationY": "51.092295",
+      "standardname": "Aalter"
+    },
+    {
+      "@id": "http://irail.be/stations/NMBS/008866001",
+      "id": "BE.NMBS.008866001",
+      "name": "Aarlen",
+      "locationX": "5.809971",
+      "locationY": "49.68053",
+      "standardname": "Arlon"
+    },
+    {
+      "@id": "http://irail.be/stations/NMBS/008833209",
+      "id": "BE.NMBS.008833209",
+      "name": "Aarschot",
+      "locationX": "4.824043",
+      "locationY": "50.984406",
+      "standardname": "Aarschot"
+    },
+    {
+      "@id": "http://irail.be/stations/NMBS/008892288",
+      "id": "BE.NMBS.008892288",
+      "name": "Aarsele",
+      "locationX": "3.418363",
+      "locationY": "50.98446",
+      "standardname": "Aarsele"
+    },
+    {
+      "@id": "http://irail.be/stations/NMBS/008886009",
+      "id": "BE.NMBS.008886009",
+      "name": "Aat",
+      "locationX": "3.777429",
+      "locationY": "50.626932",
+      "standardname": "Ath"
+    },
+    {
+      "@id": "http://irail.be/stations/NMBS/008778127",
+      "id": "BE.NMBS.008778127",
+      "name": "Agde",
+      "locationX": "3.4658",
+      "locationY": "43.317498",
+      "standardname": "Agde"
+    }
+  ]
+}

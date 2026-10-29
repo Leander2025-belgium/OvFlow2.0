@@ -1,0 +1,31 @@
+import { test, expect } from '@playwright/test';
+import { readFileSync } from 'node:fs';
+const read=(name:string)=>JSON.parse(readFileSync(new URL('../fixtures/'+name+'.json',import.meta.url),'utf8'));
+const mixed=read('mixed-journey'),stations=read('stations');
+stations.station.push({id:'BE.NMBS.008892007',name:'Gent-Sint-Pieters',standardname:'Gent-Sint-Pieters',locationX:'3.7101',locationY:'51.0359'});
+test('train and bus planning displays real route geometry and walking legs', async ({ page, isMobile }) => {
+ await page.route('https://api.irail.be/v1/stations?*',r=>r.fulfill({json:stations}));
+ await page.route('**/data/delijn-stops.json',r=>r.fulfill({json:{stops:[['101026','Wilrijk Klaproosstraat',51.17,4.407,'Antwerpen']]}}));
+ await page.route('**/api/journeys',async r=>{
+   expect(r.request().postDataJSON().destinationName).toBe('Wilrijk Klaproosstraat');
+   await r.fulfill({json:mixed});
+ });
+ await page.goto('/');
+ const nav=page.getByRole('navigation',{name:isMobile?'Mobiele navigatie':'Hoofdnavigatie',exact:true});
+ await nav.getByRole('button',{name:'Routes',exact:true}).click();
+ await page.getByLabel('Vertrekhalte of station',{exact:true}).fill('Gent-Sint-Pieters');
+ await page.getByRole('option').filter({hasText:'Gent-Sint-Pieters'}).first().click();
+ await page.getByLabel('Bestemming',{exact:true}).fill('101026');
+ await page.getByRole('option').filter({hasText:'Wilrijk Klaproosstraat'}).click();
+ await page.getByRole('button',{name:'Zoek routes',exact:true}).click();
+ await expect(page.locator('.journey-card')).toHaveCount(4);
+ await page.locator('.journey-card').first().click();
+ await expect(page.locator('.route-detail')).toContainText('IC');
+ await expect(page.locator('.route-detail')).toContainText('De Lijn');
+ await expect(page.locator('.route-detail')).toContainText('Te voet');
+ await expect(page.locator('.map-caption')).toContainText('Route van de bron');
+ await expect(page.getByText('Schematische verbinding tussen haltes')).toHaveCount(0);
+ await page.getByRole('button',{name:'Bus 22',exact:true}).click();
+ await expect(page.getByRole('button',{name:'Bus 22',exact:true})).toHaveClass(/selected/);
+ await expect(page.locator('.route-detail canvas')).toBeVisible();
+});

@@ -1,0 +1,558 @@
+{
+  "version": "1.4",
+  "timestamp": "1793096900",
+  "vehicle": "BE.NMBS.IC413",
+  "vehicleinfo": {
+    "name": "BE.NMBS.IC413",
+    "shortname": "IC 413",
+    "number": "413",
+    "type": "IC",
+    "locationX": "3.264549",
+    "locationY": "50.824506",
+    "@id": "http://irail.be/vehicle/IC413"
+  },
+  "stops": {
+    "number": "16",
+    "stop": [
+      {
+        "id": "0",
+        "station": "Kortrijk",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008896008",
+          "id": "BE.NMBS.008896008",
+          "name": "Kortrijk",
+          "locationX": "3.264549",
+          "locationY": "50.824506",
+          "standardname": "Kortrijk"
+        },
+        "time": "1793103420",
+        "platform": "8",
+        "platforminfo": {
+          "name": "8",
+          "normal": "1"
+        },
+        "scheduledDepartureTime": "1793103420",
+        "scheduledArrivalTime": "1793103420",
+        "delay": "0",
+        "canceled": "0",
+        "departureDelay": "0",
+        "departureCanceled": "0",
+        "arrivalDelay": "0",
+        "arrivalCanceled": "0",
+        "left": "0",
+        "arrived": "0",
+        "isExtraStop": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/low",
+          "name": "low"
+        },
+        "departureConnection": "http://irail.be/connections/8896008/20261027/IC413"
+      },
+      {
+        "id": "1",
+        "station": "Harelbeke",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008896115",
+          "id": "BE.NMBS.008896115",
+          "name": "Harelbeke",
+          "locationX": "3.314008",
+          "locationY": "50.85586",
+          "standardname": "Harelbeke"
+        },
+        "time": "1793103780",
+        "platform": "1",
+        "platforminfo": {
+          "name": "1",
+          "normal": "1"
+        },
+        "scheduledDepartureTime": "1793103780",
+        "scheduledArrivalTime": "1793103720",
+        "delay": "0",
+        "canceled": "0",
+        "departureDelay": "0",
+        "departureCanceled": "0",
+        "arrivalDelay": "0",
+        "arrivalCanceled": "0",
+        "left": "0",
+        "arrived": "0",
+        "isExtraStop": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/low",
+          "name": "low"
+        },
+        "departureConnection": "http://irail.be/connections/8896115/20261027/IC413"
+      },
+      {
+        "id": "2",
+        "station": "Waregem",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008896149",
+          "id": "BE.NMBS.008896149",
+          "name": "Waregem",
+          "locationX": "3.42551",
+          "locationY": "50.892456",
+          "standardname": "Waregem"
+        },
+        "time": "1793104200",
+        "platform": "2",
+        "platforminfo": {
+          "name": "2",
+          "normal": "1"
+        },
+        "scheduledDepartureTime": "1793104200",
+        "scheduledArrivalTime": "1793104140",
+        "delay": "0",
+        "canceled": "0",
+        "departureDelay": "0",
+        "departureCanceled": "0",
+        "arrivalDelay": "0",
+        "arrivalCanceled": "0",
+        "left": "0",
+        "arrived": "0",
+        "isExtraStop": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/low",
+          "name": "low"
+        },
+        "departureConnection": "http://irail.be/connections/8896149/20261027/IC413"
+      },
+      {
+        "id": "3",
+        "station": "Deinze",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008892106",
+          "id": "BE.NMBS.008892106",
+          "name": "Deinze",
+          "locationX": "3.534432",
+          "locationY": "50.978258",
+          "standardname": "Deinze"
+        },
+        "time": "1793104680",
+        "platform": "2",
+        "platforminfo": {
+          "name": "2",
+          "normal": "1"
+        },
+        "scheduledDepartureTime": "1793104680",
+        "scheduledArrivalTime": "1793104620",
+        "delay": "0",
+        "canceled": "0",
+        "departureDelay": "0",
+        "departureCanceled": "0",
+        "arrivalDelay": "0",
+        "arrivalCanceled": "0",
+        "left": "0",
+        "arrived": "0",
+        "isExtraStop": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/low",
+          "name": "low"
+        },
+        "departureConnection": "http://irail.be/connections/8892106/20261027/IC413"
+      },
+      {
+        "id": "4",
+        "station": "De Pinte",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008892080",
+          "id": "BE.NMBS.008892080",
+          "name": "De Pinte",
+          "locationX": "3.650465",
+          "locationY": "50.997063",
+          "standardname": "De Pinte"
+        },
+        "time": "1793105100",
+        "platform": "4",
+        "platforminfo": {
+          "name": "4",
+          "normal": "1"
+        },
+        "scheduledDepartureTime": "1793105100",
+        "scheduledArrivalTime": "1793105040",
+        "delay": "0",
+        "canceled": "0",
+        "departureDelay": "0",
+        "departureCanceled": "0",
+        "arrivalDelay": "0",
+        "arrivalCanceled": "0",
+        "left": "0",
+        "arrived": "0",
+        "isExtraStop": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        },
+        "departureConnection": "http://irail.be/connections/8892080/20261027/IC413"
+      },
+      {
+        "id": "5",
+        "station": "Gent-Sint-Pieters",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008892007",
+          "id": "BE.NMBS.008892007",
+          "name": "Gent-Sint-Pieters",
+          "locationX": "3.710675",
+          "locationY": "51.035896",
+          "standardname": "Gent-Sint-Pieters"
+        },
+        "time": "1793105700",
+        "platform": "9",
+        "platforminfo": {
+          "name": "9",
+          "normal": "1"
+        },
+        "scheduledDepartureTime": "1793105700",
+        "scheduledArrivalTime": "1793105460",
+        "delay": "0",
+        "canceled": "0",
+        "departureDelay": "0",
+        "departureCanceled": "0",
+        "arrivalDelay": "0",
+        "arrivalCanceled": "0",
+        "left": "0",
+        "arrived": "0",
+        "isExtraStop": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/low",
+          "name": "low"
+        },
+        "departureConnection": "http://irail.be/connections/8892007/20261027/IC413"
+      },
+      {
+        "id": "6",
+        "station": "Brussel-Zuid",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008814001",
+          "id": "BE.NMBS.008814001",
+          "name": "Brussel-Zuid",
+          "locationX": "4.336531",
+          "locationY": "50.835707",
+          "standardname": "Brussel-Zuid/Bruxelles-Midi"
+        },
+        "time": "1793107680",
+        "platform": "8",
+        "platforminfo": {
+          "name": "8",
+          "normal": "1"
+        },
+        "scheduledDepartureTime": "1793107680",
+        "scheduledArrivalTime": "1793107440",
+        "delay": "0",
+        "canceled": "0",
+        "departureDelay": "0",
+        "departureCanceled": "0",
+        "arrivalDelay": "0",
+        "arrivalCanceled": "0",
+        "left": "0",
+        "arrived": "0",
+        "isExtraStop": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        },
+        "departureConnection": "http://irail.be/connections/8814001/20261027/IC413"
+      },
+      {
+        "id": "7",
+        "station": "Brussel-Centraal",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008813003",
+          "id": "BE.NMBS.008813003",
+          "name": "Brussel-Centraal",
+          "locationX": "4.356801",
+          "locationY": "50.845658",
+          "standardname": "Brussel-Centraal/Bruxelles-Central"
+        },
+        "time": "1793107980",
+        "platform": "1",
+        "platforminfo": {
+          "name": "1",
+          "normal": "1"
+        },
+        "scheduledDepartureTime": "1793107980",
+        "scheduledArrivalTime": "1793107920",
+        "delay": "60",
+        "canceled": "0",
+        "departureDelay": "60",
+        "departureCanceled": "0",
+        "arrivalDelay": "60",
+        "arrivalCanceled": "0",
+        "left": "0",
+        "arrived": "0",
+        "isExtraStop": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        },
+        "departureConnection": "http://irail.be/connections/8813003/20261027/IC413"
+      },
+      {
+        "id": "8",
+        "station": "Brussel-Noord",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008812005",
+          "id": "BE.NMBS.008812005",
+          "name": "Brussel-Noord",
+          "locationX": "4.360846",
+          "locationY": "50.859663",
+          "standardname": "Brussel-Noord/Bruxelles-Nord"
+        },
+        "time": "1793108400",
+        "platform": "1",
+        "platforminfo": {
+          "name": "1",
+          "normal": "1"
+        },
+        "scheduledDepartureTime": "1793108400",
+        "scheduledArrivalTime": "1793108220",
+        "delay": "0",
+        "canceled": "0",
+        "departureDelay": "0",
+        "departureCanceled": "0",
+        "arrivalDelay": "0",
+        "arrivalCanceled": "0",
+        "left": "0",
+        "arrived": "0",
+        "isExtraStop": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/low",
+          "name": "low"
+        },
+        "departureConnection": "http://irail.be/connections/8812005/20261027/IC413"
+      },
+      {
+        "id": "9",
+        "station": "Leuven",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008833001",
+          "id": "BE.NMBS.008833001",
+          "name": "Leuven",
+          "locationX": "4.715866",
+          "locationY": "50.88228",
+          "standardname": "Leuven"
+        },
+        "time": "1793109480",
+        "platform": "3",
+        "platforminfo": {
+          "name": "3",
+          "normal": "1"
+        },
+        "scheduledDepartureTime": "1793109480",
+        "scheduledArrivalTime": "1793109300",
+        "delay": "0",
+        "canceled": "0",
+        "departureDelay": "0",
+        "departureCanceled": "0",
+        "arrivalDelay": "0",
+        "arrivalCanceled": "0",
+        "left": "0",
+        "arrived": "0",
+        "isExtraStop": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        },
+        "departureConnection": "http://irail.be/connections/8833001/20261027/IC413"
+      },
+      {
+        "id": "10",
+        "station": "Ans",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008841202",
+          "id": "BE.NMBS.008841202",
+          "name": "Ans",
+          "locationX": "5.509704",
+          "locationY": "50.661208",
+          "standardname": "Ans"
+        },
+        "time": "1793111040",
+        "platform": "1",
+        "platforminfo": {
+          "name": "1",
+          "normal": "1"
+        },
+        "scheduledDepartureTime": "1793111040",
+        "scheduledArrivalTime": "1793110980",
+        "delay": "0",
+        "canceled": "0",
+        "departureDelay": "0",
+        "departureCanceled": "0",
+        "arrivalDelay": "-60",
+        "arrivalCanceled": "0",
+        "left": "0",
+        "arrived": "0",
+        "isExtraStop": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        },
+        "departureConnection": "http://irail.be/connections/8841202/20261027/IC413"
+      },
+      {
+        "id": "11",
+        "station": "Luik-Guillemins",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008841004",
+          "id": "BE.NMBS.008841004",
+          "name": "Luik-Guillemins",
+          "locationX": "5.566695",
+          "locationY": "50.62455",
+          "standardname": "Liège-Guillemins"
+        },
+        "time": "1793111640",
+        "platform": "1",
+        "platforminfo": {
+          "name": "1",
+          "normal": "1"
+        },
+        "scheduledDepartureTime": "1793111640",
+        "scheduledArrivalTime": "1793111460",
+        "delay": "0",
+        "canceled": "0",
+        "departureDelay": "0",
+        "departureCanceled": "0",
+        "arrivalDelay": "0",
+        "arrivalCanceled": "0",
+        "left": "0",
+        "arrived": "0",
+        "isExtraStop": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        },
+        "departureConnection": "http://irail.be/connections/8841004/20261027/IC413"
+      },
+      {
+        "id": "12",
+        "station": "Angleur",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008842002",
+          "id": "BE.NMBS.008842002",
+          "name": "Angleur",
+          "locationX": "5.599695",
+          "locationY": "50.613152",
+          "standardname": "Angleur"
+        },
+        "time": "1793111880",
+        "platform": "1",
+        "platforminfo": {
+          "name": "1",
+          "normal": "1"
+        },
+        "scheduledDepartureTime": "1793111880",
+        "scheduledArrivalTime": "1793111820",
+        "delay": "0",
+        "canceled": "0",
+        "departureDelay": "0",
+        "departureCanceled": "0",
+        "arrivalDelay": "0",
+        "arrivalCanceled": "0",
+        "left": "0",
+        "arrived": "0",
+        "isExtraStop": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        },
+        "departureConnection": "http://irail.be/connections/8842002/20261027/IC413"
+      },
+      {
+        "id": "13",
+        "station": "Pepinster",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008844206",
+          "id": "BE.NMBS.008844206",
+          "name": "Pepinster",
+          "locationX": "5.80615",
+          "locationY": "50.568179",
+          "standardname": "Pepinster"
+        },
+        "time": "1793112780",
+        "platform": "2",
+        "platforminfo": {
+          "name": "2",
+          "normal": "1"
+        },
+        "scheduledDepartureTime": "1793112780",
+        "scheduledArrivalTime": "1793112720",
+        "delay": "0",
+        "canceled": "0",
+        "departureDelay": "0",
+        "departureCanceled": "0",
+        "arrivalDelay": "0",
+        "arrivalCanceled": "0",
+        "left": "0",
+        "arrived": "0",
+        "isExtraStop": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        },
+        "departureConnection": "http://irail.be/connections/8844206/20261027/IC413"
+      },
+      {
+        "id": "14",
+        "station": "Verviers-Centraal",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008844008",
+          "id": "BE.NMBS.008844008",
+          "name": "Verviers-Centraal",
+          "locationX": "5.854917",
+          "locationY": "50.588135",
+          "standardname": "Verviers-Central"
+        },
+        "time": "1793113200",
+        "platform": "3",
+        "platforminfo": {
+          "name": "3",
+          "normal": "1"
+        },
+        "scheduledDepartureTime": "1793113200",
+        "scheduledArrivalTime": "1793113020",
+        "delay": "0",
+        "canceled": "0",
+        "departureDelay": "0",
+        "departureCanceled": "0",
+        "arrivalDelay": "0",
+        "arrivalCanceled": "0",
+        "left": "0",
+        "arrived": "0",
+        "isExtraStop": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        },
+        "departureConnection": "http://irail.be/connections/8844008/20261027/IC413"
+      },
+      {
+        "id": "15",
+        "station": "Welkenraedt",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008844503",
+          "id": "BE.NMBS.008844503",
+          "name": "Welkenraedt",
+          "locationX": "5.975381",
+          "locationY": "50.659707",
+          "standardname": "Welkenraedt"
+        },
+        "time": "1793113860",
+        "platform": "3",
+        "platforminfo": {
+          "name": "3",
+          "normal": "1"
+        },
+        "scheduledDepartureTime": "1793113860",
+        "scheduledArrivalTime": "1793113860",
+        "delay": "0",
+        "canceled": "0",
+        "departureDelay": "0",
+        "departureCanceled": "0",
+        "arrivalDelay": "0",
+        "arrivalCanceled": "0",
+        "left": "0",
+        "arrived": "0",
+        "isExtraStop": "0"
+      }
+    ]
+  }
+}

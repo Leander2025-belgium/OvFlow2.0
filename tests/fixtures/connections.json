@@ -1,0 +1,1263 @@
+{
+  "version": "1.4",
+  "timestamp": "1793015115",
+  "connection": [
+    {
+      "id": "0",
+      "departure": {
+        "delay": "0",
+        "station": "Oostende",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008891702",
+          "id": "BE.NMBS.008891702",
+          "name": "Oostende",
+          "locationX": "2.925809",
+          "locationY": "51.228212",
+          "standardname": "Oostende"
+        },
+        "time": "1793016540",
+        "vehicle": "BE.NMBS.IC1813",
+        "vehicleinfo": {
+          "name": "BE.NMBS.IC1813",
+          "shortname": "IC 1813",
+          "number": "1813",
+          "type": "IC",
+          "locationX": "0",
+          "locationY": "0",
+          "@id": "http://irail.be/vehicle/IC1813"
+        },
+        "platform": "5",
+        "platforminfo": {
+          "name": "5",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "stops": {
+          "number": "1",
+          "stop": [
+            {
+              "id": "0",
+              "station": "Brugge",
+              "stationinfo": {
+                "@id": "http://irail.be/stations/NMBS/008891009",
+                "id": "BE.NMBS.008891009",
+                "name": "Brugge",
+                "locationX": "3.216726",
+                "locationY": "51.197226",
+                "standardname": "Brugge"
+              },
+              "scheduledArrivalTime": "1793017320",
+              "arrivalCanceled": "0",
+              "scheduledDepartureTime": "1793017500",
+              "arrivalDelay": "0",
+              "departureDelay": "0",
+              "departureCanceled": "0",
+              "left": "0",
+              "arrived": "0",
+              "isExtraStop": "0",
+              "platform": "?",
+              "platforminfo": {
+                "name": "?",
+                "normal": "1"
+              }
+            }
+          ]
+        },
+        "departureConnection": "http://irail.be/connections/8891702/20261026/IC1813",
+        "direction": {
+          "name": "Antwerpen-Centraal"
+        },
+        "left": "0",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/low",
+          "name": "low"
+        }
+      },
+      "arrival": {
+        "delay": "60",
+        "station": "Brussel-Centraal",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008813003",
+          "id": "BE.NMBS.008813003",
+          "name": "Brussel-Centraal",
+          "locationX": "4.356801",
+          "locationY": "50.845658",
+          "standardname": "Brussel-Centraal/Bruxelles-Central"
+        },
+        "time": "1793021520",
+        "vehicle": "BE.NMBS.IC413",
+        "vehicleinfo": {
+          "name": "BE.NMBS.IC413",
+          "shortname": "IC 413",
+          "number": "413",
+          "type": "IC",
+          "locationX": "0",
+          "locationY": "0",
+          "@id": "http://irail.be/vehicle/IC413"
+        },
+        "platform": "1",
+        "platforminfo": {
+          "name": "1",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Welkenraedt"
+        },
+        "arrived": "0",
+        "walking": "0",
+        "departureConnection": "http://irail.be/connections/8813003/20261026/IC413"
+      },
+      "vias": {
+        "number": "1",
+        "via": [
+          {
+            "id": "0",
+            "arrival": {
+              "delay": "60",
+              "station": "Gent-Sint-Pieters",
+              "stationinfo": {
+                "@id": "http://irail.be/stations/NMBS/008892007",
+                "id": "BE.NMBS.008892007",
+                "name": "Gent-Sint-Pieters",
+                "locationX": "3.710675",
+                "locationY": "51.035896",
+                "standardname": "Gent-Sint-Pieters"
+              },
+              "time": "1793018940",
+              "vehicle": "BE.NMBS.IC1813",
+              "vehicleinfo": {
+                "name": "BE.NMBS.IC1813",
+                "shortname": "IC 1813",
+                "number": "1813",
+                "type": "IC",
+                "locationX": "0",
+                "locationY": "0",
+                "@id": "http://irail.be/vehicle/IC1813"
+              },
+              "platform": "5",
+              "platforminfo": {
+                "name": "5",
+                "normal": "1"
+              },
+              "canceled": "0",
+              "direction": {
+                "name": "Antwerpen-Centraal"
+              },
+              "arrived": "0",
+              "walking": "0",
+              "departureConnection": "http://irail.be/connections/8892007/20261026/IC1813"
+            },
+            "departure": {
+              "delay": "0",
+              "station": "Gent-Sint-Pieters",
+              "stationinfo": {
+                "@id": "http://irail.be/stations/NMBS/008892007",
+                "id": "BE.NMBS.008892007",
+                "name": "Gent-Sint-Pieters",
+                "locationX": "3.710675",
+                "locationY": "51.035896",
+                "standardname": "Gent-Sint-Pieters"
+              },
+              "time": "1793019300",
+              "vehicle": "BE.NMBS.IC413",
+              "vehicleinfo": {
+                "name": "BE.NMBS.IC413",
+                "shortname": "IC 413",
+                "number": "413",
+                "type": "IC",
+                "locationX": "0",
+                "locationY": "0",
+                "@id": "http://irail.be/vehicle/IC413"
+              },
+              "platform": "9",
+              "platforminfo": {
+                "name": "9",
+                "normal": "1"
+              },
+              "canceled": "0",
+              "stops": {
+                "number": "1",
+                "stop": [
+                  {
+                    "id": "0",
+                    "station": "Brussel-Zuid",
+                    "stationinfo": {
+                      "@id": "http://irail.be/stations/NMBS/008814001",
+                      "id": "BE.NMBS.008814001",
+                      "name": "Brussel-Zuid",
+                      "locationX": "4.336531",
+                      "locationY": "50.835707",
+                      "standardname": "Brussel-Zuid/Bruxelles-Midi"
+                    },
+                    "scheduledArrivalTime": "1793021040",
+                    "arrivalCanceled": "0",
+                    "scheduledDepartureTime": "1793021280",
+                    "arrivalDelay": "0",
+                    "departureDelay": "0",
+                    "departureCanceled": "0",
+                    "left": "0",
+                    "arrived": "0",
+                    "isExtraStop": "0",
+                    "platform": "?",
+                    "platforminfo": {
+                      "name": "?",
+                      "normal": "1"
+                    }
+                  }
+                ]
+              },
+              "departureConnection": "http://irail.be/connections/8892007/20261026/IC413",
+              "direction": {
+                "name": "Welkenraedt"
+              },
+              "left": "0",
+              "walking": "0",
+              "occupancy": {
+                "@id": "http://api.irail.be/terms/low",
+                "name": "low"
+              }
+            },
+            "timebetween": "300",
+            "station": "Gent-Sint-Pieters",
+            "stationinfo": {
+              "@id": "http://irail.be/stations/NMBS/008892007",
+              "id": "BE.NMBS.008892007",
+              "name": "Gent-Sint-Pieters",
+              "locationX": "3.710675",
+              "locationY": "51.035896",
+              "standardname": "Gent-Sint-Pieters"
+            },
+            "vehicle": "BE.NMBS.IC413",
+            "vehicleinfo": {
+              "name": "BE.NMBS.IC413",
+              "shortname": "IC 413",
+              "number": "413",
+              "type": "IC",
+              "locationX": "0",
+              "locationY": "0",
+              "@id": "http://irail.be/vehicle/IC413"
+            }
+          }
+        ]
+      },
+      "duration": "5040",
+      "remarks": {
+        "number": "0",
+        "remark": []
+      },
+      "alerts": {
+        "number": "0",
+        "alert": []
+      }
+    },
+    {
+      "id": "1",
+      "departure": {
+        "delay": "0",
+        "station": "Oostende",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008891702",
+          "id": "BE.NMBS.008891702",
+          "name": "Oostende",
+          "locationX": "2.925809",
+          "locationY": "51.228212",
+          "standardname": "Oostende"
+        },
+        "time": "1793018520",
+        "vehicle": "BE.NMBS.IC513",
+        "vehicleinfo": {
+          "name": "BE.NMBS.IC513",
+          "shortname": "IC 513",
+          "number": "513",
+          "type": "IC",
+          "locationX": "0",
+          "locationY": "0",
+          "@id": "http://irail.be/vehicle/IC513"
+        },
+        "platform": "3",
+        "platforminfo": {
+          "name": "3",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "stops": {
+          "number": "3",
+          "stop": [
+            {
+              "id": "0",
+              "station": "Brugge",
+              "stationinfo": {
+                "@id": "http://irail.be/stations/NMBS/008891009",
+                "id": "BE.NMBS.008891009",
+                "name": "Brugge",
+                "locationX": "3.216726",
+                "locationY": "51.197226",
+                "standardname": "Brugge"
+              },
+              "scheduledArrivalTime": "1793019300",
+              "arrivalCanceled": "0",
+              "scheduledDepartureTime": "1793019480",
+              "arrivalDelay": "240",
+              "departureDelay": "180",
+              "departureCanceled": "0",
+              "left": "0",
+              "arrived": "0",
+              "isExtraStop": "0",
+              "platform": "?",
+              "platforminfo": {
+                "name": "?",
+                "normal": "1"
+              }
+            },
+            {
+              "id": "1",
+              "station": "Gent-Sint-Pieters",
+              "stationinfo": {
+                "@id": "http://irail.be/stations/NMBS/008892007",
+                "id": "BE.NMBS.008892007",
+                "name": "Gent-Sint-Pieters",
+                "locationX": "3.710675",
+                "locationY": "51.035896",
+                "standardname": "Gent-Sint-Pieters"
+              },
+              "scheduledArrivalTime": "1793020800",
+              "arrivalCanceled": "0",
+              "scheduledDepartureTime": "1793021100",
+              "arrivalDelay": "0",
+              "departureDelay": "0",
+              "departureCanceled": "0",
+              "left": "0",
+              "arrived": "0",
+              "isExtraStop": "0",
+              "platform": "?",
+              "platforminfo": {
+                "name": "?",
+                "normal": "1"
+              }
+            },
+            {
+              "id": "2",
+              "station": "Brussel-Zuid",
+              "stationinfo": {
+                "@id": "http://irail.be/stations/NMBS/008814001",
+                "id": "BE.NMBS.008814001",
+                "name": "Brussel-Zuid",
+                "locationX": "4.336531",
+                "locationY": "50.835707",
+                "standardname": "Brussel-Zuid/Bruxelles-Midi"
+              },
+              "scheduledArrivalTime": "1793022780",
+              "arrivalCanceled": "0",
+              "scheduledDepartureTime": "1793022960",
+              "arrivalDelay": "0",
+              "departureDelay": "0",
+              "departureCanceled": "0",
+              "left": "0",
+              "arrived": "0",
+              "isExtraStop": "0",
+              "platform": "?",
+              "platforminfo": {
+                "name": "?",
+                "normal": "1"
+              }
+            }
+          ]
+        },
+        "departureConnection": "http://irail.be/connections/8891702/20261026/IC513",
+        "direction": {
+          "name": "Eupen"
+        },
+        "left": "0",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/low",
+          "name": "low"
+        }
+      },
+      "arrival": {
+        "delay": "0",
+        "station": "Brussel-Centraal",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008813003",
+          "id": "BE.NMBS.008813003",
+          "name": "Brussel-Centraal",
+          "locationX": "4.356801",
+          "locationY": "50.845658",
+          "standardname": "Brussel-Centraal/Bruxelles-Central"
+        },
+        "time": "1793023200",
+        "vehicle": "BE.NMBS.IC513",
+        "vehicleinfo": {
+          "name": "BE.NMBS.IC513",
+          "shortname": "IC 513",
+          "number": "513",
+          "type": "IC",
+          "locationX": "0",
+          "locationY": "0",
+          "@id": "http://irail.be/vehicle/IC513"
+        },
+        "platform": "1",
+        "platforminfo": {
+          "name": "1",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Eupen"
+        },
+        "arrived": "0",
+        "walking": "0",
+        "departureConnection": "http://irail.be/connections/8813003/20261026/IC513"
+      },
+      "duration": "4680",
+      "remarks": {
+        "number": "0",
+        "remark": []
+      },
+      "alerts": {
+        "number": "0",
+        "alert": []
+      }
+    },
+    {
+      "id": "2",
+      "departure": {
+        "delay": "0",
+        "station": "Oostende",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008891702",
+          "id": "BE.NMBS.008891702",
+          "name": "Oostende",
+          "locationX": "2.925809",
+          "locationY": "51.228212",
+          "standardname": "Oostende"
+        },
+        "time": "1793020140",
+        "vehicle": "BE.NMBS.IC1814",
+        "vehicleinfo": {
+          "name": "BE.NMBS.IC1814",
+          "shortname": "IC 1814",
+          "number": "1814",
+          "type": "IC",
+          "locationX": "0",
+          "locationY": "0",
+          "@id": "http://irail.be/vehicle/IC1814"
+        },
+        "platform": "5",
+        "platforminfo": {
+          "name": "5",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "stops": {
+          "number": "1",
+          "stop": [
+            {
+              "id": "0",
+              "station": "Brugge",
+              "stationinfo": {
+                "@id": "http://irail.be/stations/NMBS/008891009",
+                "id": "BE.NMBS.008891009",
+                "name": "Brugge",
+                "locationX": "3.216726",
+                "locationY": "51.197226",
+                "standardname": "Brugge"
+              },
+              "scheduledArrivalTime": "1793020920",
+              "arrivalCanceled": "0",
+              "scheduledDepartureTime": "1793021100",
+              "arrivalDelay": "0",
+              "departureDelay": "0",
+              "departureCanceled": "0",
+              "left": "0",
+              "arrived": "0",
+              "isExtraStop": "0",
+              "platform": "?",
+              "platforminfo": {
+                "name": "?",
+                "normal": "1"
+              }
+            }
+          ]
+        },
+        "departureConnection": "http://irail.be/connections/8891702/20261026/IC1814",
+        "direction": {
+          "name": "Antwerpen-Centraal"
+        },
+        "left": "0",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/low",
+          "name": "low"
+        }
+      },
+      "arrival": {
+        "delay": "0",
+        "station": "Brussel-Centraal",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008813003",
+          "id": "BE.NMBS.008813003",
+          "name": "Brussel-Centraal",
+          "locationX": "4.356801",
+          "locationY": "50.845658",
+          "standardname": "Brussel-Centraal/Bruxelles-Central"
+        },
+        "time": "1793025120",
+        "vehicle": "BE.NMBS.IC414",
+        "vehicleinfo": {
+          "name": "BE.NMBS.IC414",
+          "shortname": "IC 414",
+          "number": "414",
+          "type": "IC",
+          "locationX": "0",
+          "locationY": "0",
+          "@id": "http://irail.be/vehicle/IC414"
+        },
+        "platform": "1",
+        "platforminfo": {
+          "name": "1",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Welkenraedt"
+        },
+        "arrived": "0",
+        "walking": "0",
+        "departureConnection": "http://irail.be/connections/8813003/20261026/IC414"
+      },
+      "vias": {
+        "number": "1",
+        "via": [
+          {
+            "id": "0",
+            "arrival": {
+              "delay": "60",
+              "station": "Gent-Sint-Pieters",
+              "stationinfo": {
+                "@id": "http://irail.be/stations/NMBS/008892007",
+                "id": "BE.NMBS.008892007",
+                "name": "Gent-Sint-Pieters",
+                "locationX": "3.710675",
+                "locationY": "51.035896",
+                "standardname": "Gent-Sint-Pieters"
+              },
+              "time": "1793022540",
+              "vehicle": "BE.NMBS.IC1814",
+              "vehicleinfo": {
+                "name": "BE.NMBS.IC1814",
+                "shortname": "IC 1814",
+                "number": "1814",
+                "type": "IC",
+                "locationX": "0",
+                "locationY": "0",
+                "@id": "http://irail.be/vehicle/IC1814"
+              },
+              "platform": "4",
+              "platforminfo": {
+                "name": "4",
+                "normal": "1"
+              },
+              "canceled": "0",
+              "direction": {
+                "name": "Antwerpen-Centraal"
+              },
+              "arrived": "0",
+              "walking": "0",
+              "departureConnection": "http://irail.be/connections/8892007/20261026/IC1814"
+            },
+            "departure": {
+              "delay": "0",
+              "station": "Gent-Sint-Pieters",
+              "stationinfo": {
+                "@id": "http://irail.be/stations/NMBS/008892007",
+                "id": "BE.NMBS.008892007",
+                "name": "Gent-Sint-Pieters",
+                "locationX": "3.710675",
+                "locationY": "51.035896",
+                "standardname": "Gent-Sint-Pieters"
+              },
+              "time": "1793022960",
+              "vehicle": "BE.NMBS.IC414",
+              "vehicleinfo": {
+                "name": "BE.NMBS.IC414",
+                "shortname": "IC 414",
+                "number": "414",
+                "type": "IC",
+                "locationX": "0",
+                "locationY": "0",
+                "@id": "http://irail.be/vehicle/IC414"
+              },
+              "platform": "9",
+              "platforminfo": {
+                "name": "9",
+                "normal": "1"
+              },
+              "canceled": "0",
+              "stops": {
+                "number": "1",
+                "stop": [
+                  {
+                    "id": "0",
+                    "station": "Brussel-Zuid",
+                    "stationinfo": {
+                      "@id": "http://irail.be/stations/NMBS/008814001",
+                      "id": "BE.NMBS.008814001",
+                      "name": "Brussel-Zuid",
+                      "locationX": "4.336531",
+                      "locationY": "50.835707",
+                      "standardname": "Brussel-Zuid/Bruxelles-Midi"
+                    },
+                    "scheduledArrivalTime": "1793024640",
+                    "arrivalCanceled": "0",
+                    "scheduledDepartureTime": "1793024880",
+                    "arrivalDelay": "0",
+                    "departureDelay": "0",
+                    "departureCanceled": "0",
+                    "left": "0",
+                    "arrived": "0",
+                    "isExtraStop": "0",
+                    "platform": "?",
+                    "platforminfo": {
+                      "name": "?",
+                      "normal": "1"
+                    }
+                  }
+                ]
+              },
+              "departureConnection": "http://irail.be/connections/8892007/20261026/IC414",
+              "direction": {
+                "name": "Welkenraedt"
+              },
+              "left": "0",
+              "walking": "0",
+              "occupancy": {
+                "@id": "http://api.irail.be/terms/low",
+                "name": "low"
+              }
+            },
+            "timebetween": "360",
+            "station": "Gent-Sint-Pieters",
+            "stationinfo": {
+              "@id": "http://irail.be/stations/NMBS/008892007",
+              "id": "BE.NMBS.008892007",
+              "name": "Gent-Sint-Pieters",
+              "locationX": "3.710675",
+              "locationY": "51.035896",
+              "standardname": "Gent-Sint-Pieters"
+            },
+            "vehicle": "BE.NMBS.IC414",
+            "vehicleinfo": {
+              "name": "BE.NMBS.IC414",
+              "shortname": "IC 414",
+              "number": "414",
+              "type": "IC",
+              "locationX": "0",
+              "locationY": "0",
+              "@id": "http://irail.be/vehicle/IC414"
+            }
+          }
+        ]
+      },
+      "duration": "4980",
+      "remarks": {
+        "number": "0",
+        "remark": []
+      },
+      "alerts": {
+        "number": "0",
+        "alert": []
+      }
+    },
+    {
+      "id": "3",
+      "departure": {
+        "delay": "0",
+        "station": "Oostende",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008891702",
+          "id": "BE.NMBS.008891702",
+          "name": "Oostende",
+          "locationX": "2.925809",
+          "locationY": "51.228212",
+          "standardname": "Oostende"
+        },
+        "time": "1793022120",
+        "vehicle": "BE.NMBS.IC514",
+        "vehicleinfo": {
+          "name": "BE.NMBS.IC514",
+          "shortname": "IC 514",
+          "number": "514",
+          "type": "IC",
+          "locationX": "0",
+          "locationY": "0",
+          "@id": "http://irail.be/vehicle/IC514"
+        },
+        "platform": "3",
+        "platforminfo": {
+          "name": "3",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "stops": {
+          "number": "3",
+          "stop": [
+            {
+              "id": "0",
+              "station": "Brugge",
+              "stationinfo": {
+                "@id": "http://irail.be/stations/NMBS/008891009",
+                "id": "BE.NMBS.008891009",
+                "name": "Brugge",
+                "locationX": "3.216726",
+                "locationY": "51.197226",
+                "standardname": "Brugge"
+              },
+              "scheduledArrivalTime": "1793022900",
+              "arrivalCanceled": "0",
+              "scheduledDepartureTime": "1793023080",
+              "arrivalDelay": "0",
+              "departureDelay": "0",
+              "departureCanceled": "0",
+              "left": "0",
+              "arrived": "0",
+              "isExtraStop": "0",
+              "platform": "?",
+              "platforminfo": {
+                "name": "?",
+                "normal": "1"
+              }
+            },
+            {
+              "id": "1",
+              "station": "Gent-Sint-Pieters",
+              "stationinfo": {
+                "@id": "http://irail.be/stations/NMBS/008892007",
+                "id": "BE.NMBS.008892007",
+                "name": "Gent-Sint-Pieters",
+                "locationX": "3.710675",
+                "locationY": "51.035896",
+                "standardname": "Gent-Sint-Pieters"
+              },
+              "scheduledArrivalTime": "1793024400",
+              "arrivalCanceled": "0",
+              "scheduledDepartureTime": "1793024700",
+              "arrivalDelay": "0",
+              "departureDelay": "0",
+              "departureCanceled": "0",
+              "left": "0",
+              "arrived": "0",
+              "isExtraStop": "0",
+              "platform": "?",
+              "platforminfo": {
+                "name": "?",
+                "normal": "1"
+              }
+            },
+            {
+              "id": "2",
+              "station": "Brussel-Zuid",
+              "stationinfo": {
+                "@id": "http://irail.be/stations/NMBS/008814001",
+                "id": "BE.NMBS.008814001",
+                "name": "Brussel-Zuid",
+                "locationX": "4.336531",
+                "locationY": "50.835707",
+                "standardname": "Brussel-Zuid/Bruxelles-Midi"
+              },
+              "scheduledArrivalTime": "1793026380",
+              "arrivalCanceled": "0",
+              "scheduledDepartureTime": "1793026560",
+              "arrivalDelay": "0",
+              "departureDelay": "0",
+              "departureCanceled": "0",
+              "left": "0",
+              "arrived": "0",
+              "isExtraStop": "0",
+              "platform": "?",
+              "platforminfo": {
+                "name": "?",
+                "normal": "1"
+              }
+            }
+          ]
+        },
+        "departureConnection": "http://irail.be/connections/8891702/20261026/IC514",
+        "direction": {
+          "name": "Eupen"
+        },
+        "left": "0",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/low",
+          "name": "low"
+        }
+      },
+      "arrival": {
+        "delay": "0",
+        "station": "Brussel-Centraal",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008813003",
+          "id": "BE.NMBS.008813003",
+          "name": "Brussel-Centraal",
+          "locationX": "4.356801",
+          "locationY": "50.845658",
+          "standardname": "Brussel-Centraal/Bruxelles-Central"
+        },
+        "time": "1793026800",
+        "vehicle": "BE.NMBS.IC514",
+        "vehicleinfo": {
+          "name": "BE.NMBS.IC514",
+          "shortname": "IC 514",
+          "number": "514",
+          "type": "IC",
+          "locationX": "0",
+          "locationY": "0",
+          "@id": "http://irail.be/vehicle/IC514"
+        },
+        "platform": "3",
+        "platforminfo": {
+          "name": "3",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Eupen"
+        },
+        "arrived": "0",
+        "walking": "0",
+        "departureConnection": "http://irail.be/connections/8813003/20261026/IC514"
+      },
+      "duration": "4680",
+      "remarks": {
+        "number": "0",
+        "remark": []
+      },
+      "alerts": {
+        "number": "0",
+        "alert": []
+      }
+    },
+    {
+      "id": "4",
+      "departure": {
+        "delay": "0",
+        "station": "Oostende",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008891702",
+          "id": "BE.NMBS.008891702",
+          "name": "Oostende",
+          "locationX": "2.925809",
+          "locationY": "51.228212",
+          "standardname": "Oostende"
+        },
+        "time": "1793023740",
+        "vehicle": "BE.NMBS.IC1815",
+        "vehicleinfo": {
+          "name": "BE.NMBS.IC1815",
+          "shortname": "IC 1815",
+          "number": "1815",
+          "type": "IC",
+          "locationX": "0",
+          "locationY": "0",
+          "@id": "http://irail.be/vehicle/IC1815"
+        },
+        "platform": "5",
+        "platforminfo": {
+          "name": "5",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "stops": {
+          "number": "1",
+          "stop": [
+            {
+              "id": "0",
+              "station": "Brugge",
+              "stationinfo": {
+                "@id": "http://irail.be/stations/NMBS/008891009",
+                "id": "BE.NMBS.008891009",
+                "name": "Brugge",
+                "locationX": "3.216726",
+                "locationY": "51.197226",
+                "standardname": "Brugge"
+              },
+              "scheduledArrivalTime": "1793024520",
+              "arrivalCanceled": "0",
+              "scheduledDepartureTime": "1793024700",
+              "arrivalDelay": "0",
+              "departureDelay": "0",
+              "departureCanceled": "0",
+              "left": "0",
+              "arrived": "0",
+              "isExtraStop": "0",
+              "platform": "?",
+              "platforminfo": {
+                "name": "?",
+                "normal": "1"
+              }
+            }
+          ]
+        },
+        "departureConnection": "http://irail.be/connections/8891702/20261026/IC1815",
+        "direction": {
+          "name": "Antwerpen-Centraal"
+        },
+        "left": "0",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        }
+      },
+      "arrival": {
+        "delay": "0",
+        "station": "Brussel-Centraal",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008813003",
+          "id": "BE.NMBS.008813003",
+          "name": "Brussel-Centraal",
+          "locationX": "4.356801",
+          "locationY": "50.845658",
+          "standardname": "Brussel-Centraal/Bruxelles-Central"
+        },
+        "time": "1793028720",
+        "vehicle": "BE.NMBS.IC415",
+        "vehicleinfo": {
+          "name": "BE.NMBS.IC415",
+          "shortname": "IC 415",
+          "number": "415",
+          "type": "IC",
+          "locationX": "0",
+          "locationY": "0",
+          "@id": "http://irail.be/vehicle/IC415"
+        },
+        "platform": "1",
+        "platforminfo": {
+          "name": "1",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Welkenraedt"
+        },
+        "arrived": "0",
+        "walking": "0",
+        "departureConnection": "http://irail.be/connections/8813003/20261026/IC415"
+      },
+      "vias": {
+        "number": "1",
+        "via": [
+          {
+            "id": "0",
+            "arrival": {
+              "delay": "0",
+              "station": "Gent-Sint-Pieters",
+              "stationinfo": {
+                "@id": "http://irail.be/stations/NMBS/008892007",
+                "id": "BE.NMBS.008892007",
+                "name": "Gent-Sint-Pieters",
+                "locationX": "3.710675",
+                "locationY": "51.035896",
+                "standardname": "Gent-Sint-Pieters"
+              },
+              "time": "1793026140",
+              "vehicle": "BE.NMBS.IC1815",
+              "vehicleinfo": {
+                "name": "BE.NMBS.IC1815",
+                "shortname": "IC 1815",
+                "number": "1815",
+                "type": "IC",
+                "locationX": "0",
+                "locationY": "0",
+                "@id": "http://irail.be/vehicle/IC1815"
+              },
+              "platform": "5",
+              "platforminfo": {
+                "name": "5",
+                "normal": "1"
+              },
+              "canceled": "0",
+              "direction": {
+                "name": "Antwerpen-Centraal"
+              },
+              "arrived": "0",
+              "walking": "0",
+              "departureConnection": "http://irail.be/connections/8892007/20261026/IC1815"
+            },
+            "departure": {
+              "delay": "0",
+              "station": "Gent-Sint-Pieters",
+              "stationinfo": {
+                "@id": "http://irail.be/stations/NMBS/008892007",
+                "id": "BE.NMBS.008892007",
+                "name": "Gent-Sint-Pieters",
+                "locationX": "3.710675",
+                "locationY": "51.035896",
+                "standardname": "Gent-Sint-Pieters"
+              },
+              "time": "1793026500",
+              "vehicle": "BE.NMBS.IC415",
+              "vehicleinfo": {
+                "name": "BE.NMBS.IC415",
+                "shortname": "IC 415",
+                "number": "415",
+                "type": "IC",
+                "locationX": "0",
+                "locationY": "0",
+                "@id": "http://irail.be/vehicle/IC415"
+              },
+              "platform": "9",
+              "platforminfo": {
+                "name": "9",
+                "normal": "1"
+              },
+              "canceled": "0",
+              "stops": {
+                "number": "1",
+                "stop": [
+                  {
+                    "id": "0",
+                    "station": "Brussel-Zuid",
+                    "stationinfo": {
+                      "@id": "http://irail.be/stations/NMBS/008814001",
+                      "id": "BE.NMBS.008814001",
+                      "name": "Brussel-Zuid",
+                      "locationX": "4.336531",
+                      "locationY": "50.835707",
+                      "standardname": "Brussel-Zuid/Bruxelles-Midi"
+                    },
+                    "scheduledArrivalTime": "1793028240",
+                    "arrivalCanceled": "0",
+                    "scheduledDepartureTime": "1793028480",
+                    "arrivalDelay": "0",
+                    "departureDelay": "0",
+                    "departureCanceled": "0",
+                    "left": "0",
+                    "arrived": "0",
+                    "isExtraStop": "0",
+                    "platform": "?",
+                    "platforminfo": {
+                      "name": "?",
+                      "normal": "1"
+                    }
+                  }
+                ]
+              },
+              "departureConnection": "http://irail.be/connections/8892007/20261026/IC415",
+              "direction": {
+                "name": "Welkenraedt"
+              },
+              "left": "0",
+              "walking": "0",
+              "occupancy": {
+                "@id": "http://api.irail.be/terms/low",
+                "name": "low"
+              }
+            },
+            "timebetween": "360",
+            "station": "Gent-Sint-Pieters",
+            "stationinfo": {
+              "@id": "http://irail.be/stations/NMBS/008892007",
+              "id": "BE.NMBS.008892007",
+              "name": "Gent-Sint-Pieters",
+              "locationX": "3.710675",
+              "locationY": "51.035896",
+              "standardname": "Gent-Sint-Pieters"
+            },
+            "vehicle": "BE.NMBS.IC415",
+            "vehicleinfo": {
+              "name": "BE.NMBS.IC415",
+              "shortname": "IC 415",
+              "number": "415",
+              "type": "IC",
+              "locationX": "0",
+              "locationY": "0",
+              "@id": "http://irail.be/vehicle/IC415"
+            }
+          }
+        ]
+      },
+      "duration": "4980",
+      "remarks": {
+        "number": "0",
+        "remark": []
+      },
+      "alerts": {
+        "number": "0",
+        "alert": []
+      }
+    },
+    {
+      "id": "5",
+      "departure": {
+        "delay": "0",
+        "station": "Oostende",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008891702",
+          "id": "BE.NMBS.008891702",
+          "name": "Oostende",
+          "locationX": "2.925809",
+          "locationY": "51.228212",
+          "standardname": "Oostende"
+        },
+        "time": "1793025720",
+        "vehicle": "BE.NMBS.IC515",
+        "vehicleinfo": {
+          "name": "BE.NMBS.IC515",
+          "shortname": "IC 515",
+          "number": "515",
+          "type": "IC",
+          "locationX": "0",
+          "locationY": "0",
+          "@id": "http://irail.be/vehicle/IC515"
+        },
+        "platform": "3",
+        "platforminfo": {
+          "name": "3",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "stops": {
+          "number": "3",
+          "stop": [
+            {
+              "id": "0",
+              "station": "Brugge",
+              "stationinfo": {
+                "@id": "http://irail.be/stations/NMBS/008891009",
+                "id": "BE.NMBS.008891009",
+                "name": "Brugge",
+                "locationX": "3.216726",
+                "locationY": "51.197226",
+                "standardname": "Brugge"
+              },
+              "scheduledArrivalTime": "1793026500",
+              "arrivalCanceled": "0",
+              "scheduledDepartureTime": "1793026680",
+              "arrivalDelay": "0",
+              "departureDelay": "0",
+              "departureCanceled": "0",
+              "left": "0",
+              "arrived": "0",
+              "isExtraStop": "0",
+              "platform": "?",
+              "platforminfo": {
+                "name": "?",
+                "normal": "1"
+              }
+            },
+            {
+              "id": "1",
+              "station": "Gent-Sint-Pieters",
+              "stationinfo": {
+                "@id": "http://irail.be/stations/NMBS/008892007",
+                "id": "BE.NMBS.008892007",
+                "name": "Gent-Sint-Pieters",
+                "locationX": "3.710675",
+                "locationY": "51.035896",
+                "standardname": "Gent-Sint-Pieters"
+              },
+              "scheduledArrivalTime": "1793028000",
+              "arrivalCanceled": "0",
+              "scheduledDepartureTime": "1793028300",
+              "arrivalDelay": "0",
+              "departureDelay": "0",
+              "departureCanceled": "0",
+              "left": "0",
+              "arrived": "0",
+              "isExtraStop": "0",
+              "platform": "?",
+              "platforminfo": {
+                "name": "?",
+                "normal": "1"
+              }
+            },
+            {
+              "id": "2",
+              "station": "Brussel-Zuid",
+              "stationinfo": {
+                "@id": "http://irail.be/stations/NMBS/008814001",
+                "id": "BE.NMBS.008814001",
+                "name": "Brussel-Zuid",
+                "locationX": "4.336531",
+                "locationY": "50.835707",
+                "standardname": "Brussel-Zuid/Bruxelles-Midi"
+              },
+              "scheduledArrivalTime": "1793029980",
+              "arrivalCanceled": "0",
+              "scheduledDepartureTime": "1793030160",
+              "arrivalDelay": "0",
+              "departureDelay": "0",
+              "departureCanceled": "0",
+              "left": "0",
+              "arrived": "0",
+              "isExtraStop": "0",
+              "platform": "?",
+              "platforminfo": {
+                "name": "?",
+                "normal": "1"
+              }
+            }
+          ]
+        },
+        "departureConnection": "http://irail.be/connections/8891702/20261026/IC515",
+        "direction": {
+          "name": "Eupen"
+        },
+        "left": "0",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        }
+      },
+      "arrival": {
+        "delay": "0",
+        "station": "Brussel-Centraal",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008813003",
+          "id": "BE.NMBS.008813003",
+          "name": "Brussel-Centraal",
+          "locationX": "4.356801",
+          "locationY": "50.845658",
+          "standardname": "Brussel-Centraal/Bruxelles-Central"
+        },
+        "time": "1793030400",
+        "vehicle": "BE.NMBS.IC515",
+        "vehicleinfo": {
+          "name": "BE.NMBS.IC515",
+          "shortname": "IC 515",
+          "number": "515",
+          "type": "IC",
+          "locationX": "0",
+          "locationY": "0",
+          "@id": "http://irail.be/vehicle/IC515"
+        },
+        "platform": "3",
+        "platforminfo": {
+          "name": "3",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Eupen"
+        },
+        "arrived": "0",
+        "walking": "0",
+        "departureConnection": "http://irail.be/connections/8813003/20261026/IC515"
+      },
+      "duration": "4680",
+      "remarks": {
+        "number": "0",
+        "remark": []
+      },
+      "alerts": {
+        "number": "0",
+        "alert": []
+      }
+    }
+  ]
+}

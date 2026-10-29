@@ -1,0 +1,314 @@
+{
+  "version": "1.4",
+  "timestamp": "1793015115",
+  "station": "Brussel-Centraal",
+  "stationinfo": {
+    "@id": "http://irail.be/stations/NMBS/008813003",
+    "id": "BE.NMBS.008813003",
+    "name": "Brussel-Centraal",
+    "locationX": "4.356801",
+    "locationY": "50.845658",
+    "standardname": "Brussel-Centraal/Bruxelles-Central"
+  },
+  "departures": {
+    "number": "60",
+    "departure": [
+      {
+        "id": "0",
+        "station": "Edingen",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008883311",
+          "id": "BE.NMBS.008883311",
+          "name": "Edingen",
+          "locationX": "4.047357",
+          "locationY": "50.697273",
+          "standardname": "Enghien"
+        },
+        "time": "1793014740",
+        "delay": "660",
+        "canceled": "0",
+        "left": "0",
+        "isExtra": "0",
+        "vehicle": "BE.NMBS.IC3234",
+        "vehicleinfo": {
+          "name": "BE.NMBS.IC3234",
+          "shortname": "IC 3234",
+          "number": "3234",
+          "type": "IC",
+          "locationX": "0",
+          "locationY": "0",
+          "@id": "http://irail.be/vehicle/IC3234"
+        },
+        "platform": "2",
+        "platforminfo": {
+          "name": "2",
+          "normal": "1"
+        },
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/low",
+          "name": "low"
+        },
+        "departureConnection": "http://irail.be/connections/8813003/20261026/IC3234"
+      },
+      {
+        "id": "1",
+        "station": "Antwerpen-Centraal",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008821006",
+          "id": "BE.NMBS.008821006",
+          "name": "Antwerpen-Centraal",
+          "locationX": "4.421101",
+          "locationY": "51.2172",
+          "standardname": "Antwerpen-Centraal"
+        },
+        "time": "1793014920",
+        "delay": "300",
+        "canceled": "0",
+        "left": "0",
+        "isExtra": "0",
+        "vehicle": "BE.NMBS.S11961",
+        "vehicleinfo": {
+          "name": "BE.NMBS.S11961",
+          "shortname": "S1 1961",
+          "number": "1961",
+          "type": "S1",
+          "locationX": "0",
+          "locationY": "0",
+          "@id": "http://irail.be/vehicle/S11961"
+        },
+        "platform": "5",
+        "platforminfo": {
+          "name": "5",
+          "normal": "1"
+        },
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/low",
+          "name": "low"
+        },
+        "departureConnection": "http://irail.be/connections/8813003/20261026/S11961"
+      },
+      {
+        "id": "2",
+        "station": "Knokke",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008891660",
+          "id": "BE.NMBS.008891660",
+          "name": "Knokke",
+          "locationX": "3.285188",
+          "locationY": "51.339894",
+          "standardname": "Knokke"
+        },
+        "time": "1793014980",
+        "delay": "240",
+        "canceled": "0",
+        "left": "0",
+        "isExtra": "0",
+        "vehicle": "BE.NMBS.IC2834",
+        "vehicleinfo": {
+          "name": "BE.NMBS.IC2834",
+          "shortname": "IC 2834",
+          "number": "2834",
+          "type": "IC",
+          "locationX": "0",
+          "locationY": "0",
+          "@id": "http://irail.be/vehicle/IC2834"
+        },
+        "platform": "2",
+        "platforminfo": {
+          "name": "2",
+          "normal": "1"
+        },
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/low",
+          "name": "low"
+        },
+        "departureConnection": "http://irail.be/connections/8813003/20261026/IC2834"
+      },
+      {
+        "id": "3",
+        "station": "Brussels Airport - Zaventem",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008819406",
+          "id": "BE.NMBS.008819406",
+          "name": "Brussels Airport - Zaventem",
+          "locationX": "4.482076",
+          "locationY": "50.896456",
+          "standardname": "Brussels Airport - Zaventem"
+        },
+        "time": "1793015100",
+        "delay": "0",
+        "canceled": "0",
+        "left": "0",
+        "isExtra": "0",
+        "vehicle": "BE.NMBS.IC2211",
+        "vehicleinfo": {
+          "name": "BE.NMBS.IC2211",
+          "shortname": "IC 2211",
+          "number": "2211",
+          "type": "IC",
+          "locationX": "0",
+          "locationY": "0",
+          "@id": "http://irail.be/vehicle/IC2211"
+        },
+        "platform": "1",
+        "platforminfo": {
+          "name": "1",
+          "normal": "1"
+        },
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/low",
+          "name": "low"
+        },
+        "departureConnection": "http://irail.be/connections/8813003/20261026/IC2211"
+      },
+      {
+        "id": "4",
+        "station": "Tongeren",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008831310",
+          "id": "BE.NMBS.008831310",
+          "name": "Tongeren",
+          "locationX": "5.47328",
+          "locationY": "50.784405",
+          "standardname": "Tongeren"
+        },
+        "time": "1793015100",
+        "delay": "0",
+        "canceled": "0",
+        "left": "0",
+        "isExtra": "0",
+        "vehicle": "BE.NMBS.IC1711",
+        "vehicleinfo": {
+          "name": "BE.NMBS.IC1711",
+          "shortname": "IC 1711",
+          "number": "1711",
+          "type": "IC",
+          "locationX": "0",
+          "locationY": "0",
+          "@id": "http://irail.be/vehicle/IC1711"
+        },
+        "platform": "3",
+        "platforminfo": {
+          "name": "3",
+          "normal": "1"
+        },
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/low",
+          "name": "low"
+        },
+        "departureConnection": "http://irail.be/connections/8813003/20261026/IC1711"
+      },
+      {
+        "id": "5",
+        "station": "Gent-Sint-Pieters",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008892007",
+          "id": "BE.NMBS.008892007",
+          "name": "Gent-Sint-Pieters",
+          "locationX": "3.710675",
+          "locationY": "51.035896",
+          "standardname": "Gent-Sint-Pieters"
+        },
+        "time": "1793015100",
+        "delay": "180",
+        "canceled": "0",
+        "left": "0",
+        "isExtra": "0",
+        "vehicle": "BE.NMBS.IC3633",
+        "vehicleinfo": {
+          "name": "BE.NMBS.IC3633",
+          "shortname": "IC 3633",
+          "number": "3633",
+          "type": "IC",
+          "locationX": "0",
+          "locationY": "0",
+          "@id": "http://irail.be/vehicle/IC3633"
+        },
+        "platform": "4",
+        "platforminfo": {
+          "name": "4",
+          "normal": "1"
+        },
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/low",
+          "name": "low"
+        },
+        "departureConnection": "http://irail.be/connections/8813003/20261026/IC3633"
+      },
+      {
+        "id": "6",
+        "station": "Bergen",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008881000",
+          "id": "BE.NMBS.008881000",
+          "name": "Bergen",
+          "locationX": "3.942542",
+          "locationY": "50.453854",
+          "standardname": "Mons"
+        },
+        "time": "1793015280",
+        "delay": "60",
+        "canceled": "0",
+        "left": "0",
+        "isExtra": "0",
+        "vehicle": "BE.NMBS.IC3733",
+        "vehicleinfo": {
+          "name": "BE.NMBS.IC3733",
+          "shortname": "IC 3733",
+          "number": "3733",
+          "type": "IC",
+          "locationX": "0",
+          "locationY": "0",
+          "@id": "http://irail.be/vehicle/IC3733"
+        },
+        "platform": "2",
+        "platforminfo": {
+          "name": "2",
+          "normal": "1"
+        },
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/low",
+          "name": "low"
+        },
+        "departureConnection": "http://irail.be/connections/8813003/20261026/IC3733"
+      },
+      {
+        "id": "7",
+        "station": "Dendermonde",
+        "stationinfo": {
+          "@id": "http://irail.be/stations/NMBS/008893401",
+          "id": "BE.NMBS.008893401",
+          "name": "Dendermonde",
+          "locationX": "4.101427",
+          "locationY": "51.022781",
+          "standardname": "Dendermonde"
+        },
+        "time": "1793015280",
+        "delay": "60",
+        "canceled": "0",
+        "left": "0",
+        "isExtra": "0",
+        "vehicle": "BE.NMBS.S32261",
+        "vehicleinfo": {
+          "name": "BE.NMBS.S32261",
+          "shortname": "S3 2261",
+          "number": "2261",
+          "type": "S3",
+          "locationX": "0",
+          "locationY": "0",
+          "@id": "http://irail.be/vehicle/S32261"
+        },
+        "platform": "1",
+        "platforminfo": {
+          "name": "1",
+          "normal": "1"
+        },
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        },
+        "departureConnection": "http://irail.be/connections/8813003/20261026/S32261"
+      }
+    ]
+  }
+}

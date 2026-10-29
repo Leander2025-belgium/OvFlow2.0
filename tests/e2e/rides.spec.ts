@@ -1,0 +1,36 @@
+import {test,expect} from '@playwright/test';
+import {readFileSync} from 'node:fs';
+const read=(n:string)=>JSON.parse(readFileSync(new URL('../fixtures/'+n+'.json',import.meta.url),'utf8'));
+test('selected stops, GPS marker and kilometers survive reopening',async({page,isMobile})=>{
+ const trip=read('delijn-trip'),board=read('delijn-board');
+ await page.clock.install({time:new Date(board.serverDateTime)});
+ await page.route('https://api.irail.be/v1/stations?*',r=>r.fulfill({json:read('stations')}));
+ await page.route('**/data/delijn-stops.json',r=>r.fulfill({json:{stops:[['101026','Wilrijk Klaproosstraat',51.17,4.407,'Antwerpen']]}}));
+ await page.route('**/api/delijn/departures/*',r=>r.fulfill({json:board}));
+ await page.route('**/api/delijn/trip/*',r=>r.fulfill({json:{...trip,vehicleId:'5891'}}));
+ await page.route('**/api/delijn/pattern/*',r=>r.fulfill({json:read('delijn-pattern')}));
+ await page.route('**/api/delijn/vehicle/*',r=>r.fulfill({contentType:'text/event-stream',body:'data: '+JSON.stringify({tripId:trip.id,vehicleId:'5891',lt:51.18,ln:4.4,timestamp:board.serverDateTime})+'\n\n'}));
+ await page.goto('/');
+ const nav=()=>page.getByRole('navigation',{name:isMobile?'Mobiele navigatie':'Hoofdnavigatie',exact:true});
+ await nav().getByRole('button',{name:'Live',exact:true}).click();
+ await page.getByLabel('Instaphalte of station',{exact:true}).fill('101026');
+ await page.getByRole('option').filter({hasText:'Wilrijk Klaproosstraat'}).click();
+ await page.locator('.departure').first().click();
+ await page.getByLabel('Instaphalte van deze rit',{exact:true}).selectOption('1');
+ await page.getByLabel('Uitstaphalte van deze rit',{exact:true}).selectOption('5');
+ await expect(page.getByRole('img',{name:'Laatst bekende buspositie',exact:true})).toBeVisible();
+ await page.reload();
+ await expect(page.getByLabel('Instaphalte van deze rit',{exact:true})).toHaveValue('1');
+ await expect(page.getByLabel('Uitstaphalte van deze rit',{exact:true})).toHaveValue('5');
+ // Source failure after reopening must retain the saved plan, not a stale GPS marker.
+ await page.route('**/api/delijn/trip/*',r=>r.fulfill({status:503,json:{error:'offline'}}));
+ await page.reload();
+ await expect(page.getByLabel('Uitstaphalte van deze rit',{exact:true})).toHaveValue('5');
+ await expect(page.getByRole('img',{name:'Live buspositie',exact:true})).toHaveCount(0);
+ await page.getByRole('button',{name:'Ik ben uitgestapt · kilometers opslaan',exact:true}).click();
+ await expect(page.locator('.ride-history')).toContainText('1 bevestigde ritten');
+ const total=await page.locator('.km-total').innerText();
+ expect(parseFloat(total)).toBeGreaterThan(0);
+ await page.reload();await nav().getByRole('button',{name:'Profiel',exact:true}).click();
+ await expect(page.locator('.km-total')).toHaveText(total);await expect(page.locator('.ride-history .history-row')).toHaveCount(1);
+});
