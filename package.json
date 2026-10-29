@@ -1,0 +1,50 @@
+{
+  "name": "ovflow",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "node scripts/clean-build.mjs && tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "server": "tsx server/index.ts",
+    "import:gtfs": "tsx server/import-gtfs.ts",
+    "deploy": "npm run build && wrangler deploy --config dist/server/wrangler.json"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "@tanstack/react-query": "^5.90.0",
+    "zustand": "^5.0.8",
+    "idb-keyval": "^6.2.2",
+    "maplibre-gl": "^5.10.0",
+    "lucide-react": "^0.468.0",
+    "zod": "^3.25.76",
+    "express": "^5.1.0",
+    "cors": "^2.8.5",
+    "csv-parse": "^6.1.0",
+    "fflate": "^0.8.2",
+    "luxon": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@types/node": "^22.19.0",
+    "@types/express": "^5.0.0",
+    "@types/cors": "^2.8.19",
+    "@types/luxon": "^3.7.1",
+    "@vitejs/plugin-react": "^5.1.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.0",
+    "vite-plugin-pwa": "^1.1.0",
+    "vitest": "^3.2.4",
+    "@playwright/test": "^1.56.1",
+    "tsx": "^4.20.6",
+    "tailwindcss": "^4.1.0",
+    "@tailwindcss/vite": "^4.1.0",
+    "@cloudflare/vite-plugin": "1.37.1",
+    "wrangler": "4.92.0"
+  }
+}
